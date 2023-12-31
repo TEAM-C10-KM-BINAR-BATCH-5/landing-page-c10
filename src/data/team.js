@@ -4,6 +4,9 @@ import rizal from "../assets/team/rizal.jpg";
 import rohman from "../assets/team/rohman.png";
 import doanta from "../assets/team/Doanta.jpg";
 import adrian from "../assets/team/Adrian.png";
+import jordhi from "../assets/team/jordhi.png";
+import dimas from "../assets/team/dimas.jpg";
+import ale from "../assets/team/ale.jpg";
 
 export const team = [
   {
@@ -22,19 +25,19 @@ export const team = [
     id: 3,
     name: "Dimas Mukthar Yaliawan",
     role: "Backend Developer",
-    img: "",
+    img: dimas,
   },
   {
     id: 4,
     name: "Arfiano Jordhy Ramadhan",
     role: "Fullstack Developer",
-    img: "",
+    img: jordhi,
   },
   {
     id: 5,
     name: "Muhammad Nur Fajri",
     role: "Frontend developer",
-    img: "",
+    img: ale,
   },
   {
     id: 6,
@@ -64,6 +67,6 @@ export const team = [
     id: 10,
     name: "Nooriza Modistira",
     role: "Android Developer",
-    img: "",
+    img: "https://placehold.co/600x400/png",
   },
 ];
