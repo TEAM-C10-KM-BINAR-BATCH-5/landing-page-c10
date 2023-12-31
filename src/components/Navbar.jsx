@@ -1,5 +1,7 @@
 import React, { useState } from "react";
-import { logo, lock, hamburgerMenu, close } from "../assets";
+import { hamburgerMenu, close } from "../assets";
+import { Link, animateScroll as scroll } from "react-scroll";
+import logoImg from "../assets/logo.png";
 
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
@@ -8,16 +10,34 @@ const Navbar = () => {
   return (
     <div className="w-full h-[80px] fixed bg-white border-b px-5 mt z-50">
       <div className="md:max-w-[1480px] max-w-[600px] m-auto w-full h-full flex justify-between items-center md:px-0 px-4">
-        {/* <img src={logo} className="h-[25px]" /> */}
-        <strong className="text-2xl text-costumeBlue">LEARNHUB</strong>
-
+        <img src={logoImg} className="h-[125px]" />
         <div className="hidden md:flex items-center">
           <ul className="flex gap-4 text-costumeBlue">
-            <li>Home</li>
-            <li>Courses</li>
-            <li>Achievement</li>
-            <li>Review</li>
-            <li>Our Team</li>
+            <li className="cursor-pointer">
+              <Link to="home" smooth={true} duration={1000}>
+                Home
+              </Link>
+            </li>
+            <li className="cursor-pointer">
+              <Link to="courses" smooth={true} duration={1000}>
+                Course
+              </Link>
+            </li>
+            <li className="cursor-pointer">
+              <Link to="achievement" smooth={true} duration={1000}>
+                Achievement
+              </Link>
+            </li>
+            <li className="cursor-pointer">
+              <Link to="feedback" smooth={true} duration={1000}>
+                FeedBack
+              </Link>
+            </li>
+            <li className="cursor-pointer">
+              <Link to="OurTeam" smooth={true} duration={1000}>
+                Our Team
+              </Link>
+            </li>
           </ul>
         </div>
 
@@ -40,11 +60,31 @@ const Navbar = () => {
         }
       >
         <ul>
-          <li className="p-4 hover:bg-gray-100">Home</li>
-          <li className="p-4 hover:bg-gray-100">Courses</li>
-          <li className="p-4 hover:bg-gray-100">Achievement</li>
-          <li className="p-4 hover:bg-gray-100">Review</li>
-          <li className="p-4 hover:bg-gray-100">Our Team</li>
+          <li className="p-4 hover:bg-gray-100">
+            <Link to="home" smooth={true} duration={1000}>
+              Home
+            </Link>
+          </li>
+          <li className="p-4 hover:bg-gray-100">
+            <Link to="courses" smooth={true} duration={1000}>
+              Course
+            </Link>
+          </li>
+          <li className="p-4 hover:bg-gray-100">
+            <Link to="achievement" smooth={true} duration={1000}>
+              Achievement
+            </Link>
+          </li>
+          <li className="p-4 hover:bg-gray-100">
+            <Link to="feedback" smooth={true} duration={1000}>
+              FeedBack
+            </Link>
+          </li>
+          <li className="p-4 hover:bg-gray-100">
+            <Link to="OurTeam" smooth={true} duration={1000}>
+              Our Team
+            </Link>
+          </li>
           <div className="flex flex-col my-4 gap-4">
             <button className="px-8 py-5 rounded-md bg-costumeBlue text-white font-bold">
               Download Now

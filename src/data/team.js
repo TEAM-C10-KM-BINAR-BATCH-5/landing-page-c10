@@ -3,6 +3,7 @@ import izzudin from "../assets/team/izzudin.jpg";
 import rizal from "../assets/team/rizal.jpg";
 import rohman from "../assets/team/rohman.png";
 import doanta from "../assets/team/Doanta.jpg";
+import adrian from "../assets/team/Adrian.png";
 
 export const team = [
   {
@@ -15,7 +16,7 @@ export const team = [
     id: 2,
     name: "Adrian Wahyu Prasetya",
     role: "Fullstack Developer",
-    img: "",
+    img: adrian,
   },
   {
     id: 3,

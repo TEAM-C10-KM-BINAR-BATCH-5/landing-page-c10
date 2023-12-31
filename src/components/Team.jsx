@@ -3,7 +3,10 @@ import { team } from "../data/team";
 
 export const Team = () => {
   return (
-    <div className="px-4 py-16 mx-auto lg:max-w-screen-xl md:px-5 lg:px-8 lg:py-20">
+    <div
+      id="OurTeam"
+      className="px-4 py-16 mx-auto lg:max-w-screen-xl md:px-5 lg:px-8 lg:py-20"
+    >
       <div className="mx-auto mb-10 lg:max-w-xl sm:text-center">
         <p className="inline-block px-3 py-px mb-4 text-2xl font-extrabold tracking-wider text-costumeBlue uppercase rounded-full bg-teal-accent-400">
           Our Team
