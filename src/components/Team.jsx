@@ -22,7 +22,7 @@ export const Team = () => {
             className="flex flex-col items-center mb-2 md:mb-6"
           >
             <img
-              className="object-cover w-20 h-20 mb-2 rounded-full shadow"
+              className="object-cover w-20 md:w-28 h-20 md:h-28 mb-2 rounded-full shadow"
               src={member.img}
               alt={member.name}
             />

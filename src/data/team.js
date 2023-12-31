@@ -2,7 +2,7 @@ import gilang from "../assets/team/gin.png";
 import izzudin from "../assets/team/izzudin.jpg";
 import rizal from "../assets/team/rizal.jpg";
 import rohman from "../assets/team/rohman.png";
-import doanta from "../assets/team/Doanta.jpg";
+import doanta from "../assets/team/Doanta.png";
 import adrian from "../assets/team/Adrian.png";
 import jordhi from "../assets/team/jordhi.png";
 import dimas from "../assets/team/dimas.jpg";
