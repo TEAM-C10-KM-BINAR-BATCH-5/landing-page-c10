@@ -43,7 +43,11 @@ const Navbar = () => {
 
         <div className="hidden md:flex">
           <button className="px-8 py-3 rounded-md bg-costumeBlue text-white font-bold">
-            <a href="https://play.google.com/store/apps?hl=en&gl=US">
+            <a
+              href="https://play.google.com/store/apps?hl=en&gl=US"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               Download Now
             </a>
           </button>
@@ -89,7 +93,11 @@ const Navbar = () => {
           </li>
           <div className="flex flex-col my-4 gap-4">
             <button className="px-8 py-5 rounded-md bg-costumeBlue text-white font-bold">
-              <a href="https://play.google.com/store/apps?hl=en&gl=US">
+              <a
+                href="https://play.google.com/store/apps?hl=en&gl=US"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 Download Now
               </a>
             </button>
