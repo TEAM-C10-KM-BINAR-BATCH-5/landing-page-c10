@@ -7,6 +7,7 @@ import adrian from "../assets/team/Adrian.png";
 import jordhi from "../assets/team/jordhi.png";
 import dimas from "../assets/team/dimas.jpg";
 import ale from "../assets/team/ale.jpg";
+import nooriza from "../assets/team/nooriza.jpg";
 
 export const team = [
   {
@@ -67,6 +68,6 @@ export const team = [
     id: 10,
     name: "Nooriza Modistira",
     role: "Android Developer",
-    img: "https://placehold.co/600x400/png",
+    img: nooriza,
   },
 ];
