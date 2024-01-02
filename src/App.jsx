@@ -5,7 +5,6 @@ import {
   Companies,
   Courses,
   Achievement,
-  Categories,
   Feedback,
   CTA,
   Footer,
@@ -21,7 +20,6 @@ const App = () => {
       <Companies />
       <Courses />
       <Achievement />
-      {/* <Categories /> */}
       <Feedback />
       <CTA />
       <Team />

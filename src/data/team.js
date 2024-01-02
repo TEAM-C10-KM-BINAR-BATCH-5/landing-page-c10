@@ -23,7 +23,7 @@ export const team = [
   },
   {
     id: 3,
-    name: "Dimas Mukthar Yaliawan",
+    name: "Dimas Mukhtar Yuliawan",
     role: "Backend Developer",
     img: dimas,
   },

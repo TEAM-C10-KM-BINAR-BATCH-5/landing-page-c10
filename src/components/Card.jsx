@@ -9,11 +9,11 @@ const Card = ({ course }) => {
   });
 
   return (
-    <div className="z-10 bg-white drop-shadow-md overflow-hidden rounded-2xl mr-2  my-4">
+    <div className="z-10 bg-white drop-shadow-md overflow-hidden rounded-2xl m-3">
       <img src={course.imageUrl} className="h-40 w-full object-cover" />
       <div className="p-5 border border-b">
         <h1 className="py-2 truncate font-bold">{course.title}</h1>
-        {/* <StarRating rating={course.rating}/> */}
+        <StarRating rating={course.rating} />
         <h6 className="">level : {course.level}</h6>
       </div>
       <h3 className="p-5 text-xl">{priceFormatter.format(course.price)}</h3>

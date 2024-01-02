@@ -15,6 +15,15 @@ const Feedback = () => {
       {
         breakpoint: 1024,
         settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1,
+          infinite: false,
+          dots: true,
+        },
+      },
+      {
+        breakpoint: 800,
+        settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
           infinite: false,
@@ -24,8 +33,8 @@ const Feedback = () => {
       {
         breakpoint: 600,
         settings: {
-          slidesToShow: 2,
-          slidesToScroll: 2,
+          slidesToShow: 1,
+          slidesToScroll: 1,
           infinite: false,
           dots: true,
         },
@@ -39,14 +48,11 @@ const Feedback = () => {
           dots: true,
         },
       },
-      // You can unslick at a given breakpoint now by adding:
-      // settings: "unslick"
-      // instead of a settings object
     ],
   };
 
   return (
-    <div id="feedback" className="w-full bg-white py-32">
+    <div id="feedback" className="w-full bg-white pb-12">
       <div className="md:max-w-[1480px] m-auto max-w-[600px]  px-4 md:px-0">
         <div className="py-4 text-center">
           <h1 className="py-3 text-3xl font-bold">

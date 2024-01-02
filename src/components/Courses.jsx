@@ -39,9 +39,6 @@ const Courses = () => {
           dots: true,
         },
       },
-      // You can unslick at a given breakpoint now by adding:
-      // settings: "unslick"
-      // instead of a settings object
     ],
   };
 
@@ -56,7 +53,7 @@ const Courses = () => {
   };
 
   return (
-    <div id="courses" className="w-full bg-[#E9F8F3B2] py-32">
+    <div id="courses" className="w-full bg-[#E9F8F3B2] py-12">
       <div className="md:max-w-[1480px] m-auto max-w-[600px]  px-4 md:px-0">
         <div className="py-4 text-center">
           <h1 className="py-3 text-3xl font-bold">
@@ -67,7 +64,7 @@ const Courses = () => {
           </p>
         </div>
 
-        <Slider {...settings} className="px-5">
+        <Slider {...settings} className="mx-12">
           {course.map((course, i) => (
             <div key={i}>
               <Card course={course} />
