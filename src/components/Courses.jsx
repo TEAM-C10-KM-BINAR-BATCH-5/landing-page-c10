@@ -66,7 +66,7 @@ const Courses = () => {
 
         <Slider {...settings} className="mx-12">
           {course.map((course, i) => (
-            <div key={i}>
+            <div className="mb-5 md:mb-0" key={i}>
               <Card course={course} />
             </div>
           ))}
