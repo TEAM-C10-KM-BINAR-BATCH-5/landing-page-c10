@@ -6,7 +6,7 @@ import { SlPeople } from "react-icons/sl";
 
 const Achievement = () => {
   return (
-    <div id="achievement" className="w-full bg-white py-24 px-5">
+    <div id="achievement" className="w-full bg-white py-16 px-5">
       <div className="md:max-w-[1480px] m-auto grid md:grid-cols-2 max-w-[600px]  px-4 md:px-0">
         <div className="flex flex-col justify-center ">
           <h1 className="md:leading-[72px] text-3xl font-bold">
